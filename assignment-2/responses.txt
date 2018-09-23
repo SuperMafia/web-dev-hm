@@ -1,0 +1,4 @@
+1. The Internet sends data through as tiny packets of bits and bytes, not all together. As well, the Internet is designed to have data travel randomly, instead of a straight, two-way path.
+2. An IP Address is (currently) a 32-bit arrangement of binary code, which is a specified "address" for every device within a country and subregion, which a Domain Name System (DNS) will provide through the device sending its IP Address and matching the requesting IP with an IP specifically associated with a name.
+3. Cookies are basically short-term memories for your web browser that will allow websites (ie. YouTube) to remember you and load into the website with your credentials already in.
+4. At their most simple, a universal resource locator is divided into three simple parts: a protocol (more often than not the Hypertext Transfer Protocol or HTTP), the domain name, and a path within that domain.
