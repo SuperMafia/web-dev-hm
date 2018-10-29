@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A site with images, videos, and other media!">
+    <meta name="author" content="Jude MacDonald">
+    <meta name="keywords" content="container, lyrics, contact">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia in HTML</title>
+    <!--Gotta style on this webpage!-->
+    <style>
+      body {
+        background-color: powderblue;
+        text-align: center;
+        }
+      .container {
+        background-color: white;
+        width: 600px;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid black;
+        }
+      .lyrics p, pre { font-size: small;
+        font-family: Arial;
+        }
+      .contact {
+        background-color: lightgray;
+        }
+    </style>
+  </head>
+
+  <body>
+    <!--All the ids go here, so that the website can prioritize loading these up.-->
+    <div id="art" class="container">
+      <h2>Dance Through the Danger</h2>
+      <!--Original Source Picture had it at -->
+      <img src="./images/risky-beats.jpg" alt="This is the Ultimate Edition version of the soundtrack included with Shantae: Half-Genie Hero" title="Shantae: Half-Genie Hero-Risky Beats" width="300" height="300">
+    </div>
+    <div id="audio" class="container">
+      <h2>The Audio, from Jake Kaufman's Bandcamp</h2>
+      <iframe style="border: 0; width: 100%; height: 42px;" src="https://bandcamp.com/EmbeddedPlayer/album=1938938319/size=small/bgcol=ffffff/linkcol=0687f5/track=710316358/transparent=true/" seamless><a href="http://virt.bandcamp.com/album/shantae-half-genie-hero-ost">Shantae: Half-Genie Hero OST by Jake Kaufman</a></iframe>
+    </div>
+    <div id="video" class="container">
+      <h2>The Video, from Christina Vee's YouTube account</h2>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/71lLnE8gJnU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+    </div>
+    <div id="lyrics" class="container lyrics">
+      <h2>The Lyrics</h2>
+      <pre>
+        <em>
+          <srong>"Dance Through the Danger"</strong>
+        </em>
+        "
+
+        They say we live in the darkness
+        They say there's trouble ahead
+        Every day there's sorrow: today, tomorrow
+        But I'm dancing instead
+
+        'Cause I can dance through the danger
+        The magic flows through my soul
+        All around, it's seeming in the dream I'm dreaming
+        A better day
+        can't be far away
+
+        So I will dance through the danger
+        And fly away to the stars
+        Take my lead and I'll start it to the beat of my heart
+        I'll never give up in my fight 'til the future is bright
+
+        (instrumental)
+
+        So we will dance through the danger
+        Together we'll never fail
+        We will forge a path to our destiny
+        I ask you to dance with me, so the world can see
+        That we can dance through the danger
+        Together we will set sail
+        For a time and space with a faster pace
+        Seeing the world as a happier place
+
+        Yes, we can dance through the danger
+        And fly away to the stars
+        Come along, don't miss this
+        'Cause I know that this is our time
+
+        So we will dance through the danger
+        Together we will set sail
+        For a time and space with a faster pace
+        Seeing the world as a happier place
+
+        Yes, we can dance through the danger
+        And fly away to the stars
+        Come along... (fade to black)"
+      </pre>
+    </div>
+    <div id="copyright" class="container contact">
+      <p>&#169; Jake "virt" Kaufman and Christina Vee, 2013</p>
+      <video poster="./media/mart-logo-poster.jpg" width="560" height="315" preload controls>
+        <source src="./media/mart-logo-animated.mp4" type='video/mp4; codecs="avc1.4D401E, mp4a.40.2"'>
+        <source src="./media/mart-logo-animated.webm" type='video/webm; codecs="vp8.0, vorbis"'>
+      </video>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2728.141884598767!2d-113.98431668474979!3d46.860580147206086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x535dcc3413abc31d%3A0x5a5373da5d9ea43c!2s32+Campus+Dr%2C+Missoula%2C+MT+59812!5e0!3m2!1sen!2sus!4v1540788096735" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    </div>
+  </body>
+</html>
