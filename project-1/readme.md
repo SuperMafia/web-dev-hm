@@ -11,4 +11,4 @@ Used the Wayback Machine to see what Google looked like back in the turn of the 
 - None in particular, maybe a bit more on the html side, though it's pretty packed as it is.
 - I have not seen any real problems back in assignment 2, though I hope they are able to get markdown to a T.
 
-![Progress Point!](.images/screenshot.png)
+![Progress Point!](./images/screenshot.png)

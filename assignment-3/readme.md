@@ -10,4 +10,4 @@ The Structural Markups are a sort of "skeleton" for the Body of a web page. It's
 - Meta tags seems to be most intriguing to me. Perhaps that's how they can store cookies for other websites?
 - One of the best pieces of advise I can offer to my classmates is to make sure that you spell "mailto" and not "malto", because that's how it should spelt out in HTML.
 
-![Progress Point!](.images/screenshot.png)
+![Progress Point!](./images/screenshot.png)
