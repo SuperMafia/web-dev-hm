@@ -1,0 +1,32 @@
+body{
+  font-family: sans-serif;
+  text-align: center;
+  background-color: #082567;
+}
+/*Here would have been the "squares" portion. However, it did not end well at all... So it's basically more or less nude.*/
+h1, p{
+  font-style: italic;
+  color: #0F52BA;
+  position: absolute;
+  width: 50%;
+  left: 25%;
+}
+.text2 {
+  font-family: serif;
+  background-color: #FF1493;
+  color: #082567
+  position: absolute;
+  bottom: 60%;
+}
+.sticker {
+  bottom: 50%;
+  right: 50%;
+}
+p.p-two {
+  font-style: oblique;
+  background-color: #FF00FF;
+  bottom: 10%;
+}
+.asthetics{
+  background-color: #00FFFF;
+}
