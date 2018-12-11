@@ -1,0 +1,42 @@
+* {
+  font-family: 'PixelOperatorMono', sans-serif, serif;
+}
+
+body {
+  background-color: #000000;
+  text-align: center;
+}
+
+.text-container {
+  background-color: rgba(0, 255, 0, 0.15);
+  width: 600px;
+  padding: 20px;
+  position: absolute;
+  left: 25%;
+  color: #00FF00;
+}
+
+#title {
+  font-family: 'PixelOperatorMono', serif;
+}
+
+.text {
+  font-size: 0.5em;
+  font-family: sans-serif;
+  text-align: left;
+}
+h2 {
+  text-align: center;
+}
+#button-container{
+  width: 15em;
+  height: 4em;
+  margin: auto;
+}
+.button p{
+  text-align: center;
+  color: #FF0000;
+}
+.button p:active{
+  color: #FFFFFF;
+}
