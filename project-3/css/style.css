@@ -1,0 +1,76 @@
+/*Pre-Loading one single font up here*/
+@font-face {
+  font-family: 'Jewels';
+  src: url(../fonts/Jewels.ttf) format('truetype');
+}
+/*Setting HTML's Box Size to be Relative to Screen Size (or, not doing absolute values because my resolution of 1366x768 wouldn't work too well smaller or larger than my values)*/
+
+html {
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/overlay.png);
+  background-size: cover;
+  margin: 0;
+}
+body {
+  width: inherit;
+  font-family: 'Jewels';
+  text-align: center;
+  text-decoration: none;
+}
+.image-container {
+  position: absolute;
+  bottom: 0;
+  left: 10px;
+}
+.shantae-ponder{
+  z-index: -1;
+}
+.overlay-element{
+  width: 100%;
+  height: 100%;
+  background-image: url(../images/overlay.png);
+  background-size: cover;
+  margin: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.content-container {
+  width: inherit;
+  position: absolute;
+  bottom: 10%;
+}
+h1 {
+  background-color: rgba(0, 255, 0, 0.25);
+  border: 5px solid #FFFFFF;
+  font-size: 3em;
+}
+p {
+  color: #FFFFFF;
+  background-color: #000000;
+  font-size: 1.5em;
+}
+.assignment-links{
+  position: absolute;
+  top: 25%;
+  width: 100%;
+}
+li{
+  display: inline;
+}
+.assignment-links a{
+  font-size: 20px;
+  padding: 5px;
+  background-color: rgba(255, 0, 0, 0.5);
+  border: 5px solid rgba(0, 0, 0, 0);
+  border-radius: 100%;
+  color: #82008F;
+}
+.assignment-links a:hover{
+  background-color: rgb(255, 0, 0);
+  border: 5px solid rgb(255, 255, 255);
+  position: relative;
+  bottom: 10px;
+}
